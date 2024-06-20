@@ -1,0 +1,135 @@
+Sure, here is a comprehensive list of common Git commands along with their definitions:
+
+### Basic Commands
+
+1. **`git init`**
+   - Initializes a new Git repository in the current directory.
+
+2. **`git clone <repository>`**
+   - Creates a copy of an existing repository into a new directory.
+
+3. **`git status`**
+   - Displays the state of the working directory and the staging area, showing which changes are staged, unstaged, or untracked.
+
+4. **`git add <file>`**
+   - Adds changes in the specified file to the staging area.
+
+5. **`git add .`**
+   - Adds all changes in the current directory to the staging area.
+
+6. **`git commit -m "message"`**
+   - Records changes to the repository with a descriptive message.
+
+7. **`git log`**
+   - Shows the commit history for the current branch.
+
+8. **`git diff`**
+   - Displays differences between working directory and the index (staging area), between the index and the latest commit, or between two commits.
+
+9. **`git branch`**
+   - Lists all branches in the repository and shows the current branch.
+
+10. **`git checkout <branch>`**
+    - Switches to the specified branch and updates the working directory to match.
+
+11. **`git checkout -b <branch>`**
+    - Creates a new branch and switches to it.
+
+12. **`git merge <branch>`**
+    - Merges the specified branch into the current branch.
+
+13. **`git remote -v`**
+    - Displays the URLs of the remote repositories.
+
+14. **`git remote add <name> <url>`**
+    - Adds a remote repository under the specified name.
+
+15. **`git push <remote> <branch>`**
+    - Pushes the specified branch to the remote repository.
+
+16. **`git pull <remote> <branch>`**
+    - Fetches changes from the remote repository and merges them into the current branch.
+
+17. **`git fetch <remote>`**
+    - Fetches changes from the remote repository but does not merge them.
+
+18. **`git rm <file>`**
+    - Removes the specified file from the working directory and stages the removal for commit.
+
+19. **`git mv <oldname> <newname>`**
+    - Renames a file and stages the change for commit.
+
+### Advanced Commands
+
+1. **`git rebase <branch>`**
+   - Reapplies commits on top of another base tip.
+
+2. **`git stash`**
+   - Saves changes temporarily so you can work on something else and reapply the changes later.
+
+3. **`git stash pop`**
+   - Applies the most recently stashed changes and removes them from the stash list.
+
+4. **`git tag <name>`**
+   - Creates a tag at the current commit.
+
+5. **`git tag -a <name> -m "message"`**
+   - Creates an annotated tag at the current commit with a message.
+
+6. **`git show <tag>`**
+   - Displays information about the specified tag.
+
+7. **`git reset <file>`**
+   - Unstages the specified file, keeping the file's changes in the working directory.
+
+8. **`git reset --hard <commit>`**
+   - Resets the index and working directory to the specified commit, discarding all changes.
+
+9. **`git revert <commit>`**
+   - Creates a new commit that undoes the changes of the specified commit.
+
+10. **`git cherry-pick <commit>`**
+    - Applies changes introduced by the specified commit to the current branch.
+
+11. **`git log --oneline`**
+    - Displays the commit history in a simplified, one-line format.
+
+12. **`git log --graph`**
+    - Displays the commit history as a graph.
+
+13. **`git blame <file>`**
+    - Shows what revision and author last modified each line of a file.
+
+14. **`git clean -f`**
+    - Removes untracked files from the working directory.
+
+### Configuration Commands
+
+1. **`git config --global user.name "Your Name"`**
+   - Sets the name you want attached to your commit messages.
+
+2. **`git config --global user.email "your.email@example.com"`**
+   - Sets the email you want attached to your commit messages.
+
+3. **`git config --list`**
+   - Lists all configuration settings.
+
+### Remote Repository Commands
+
+1. **`git remote set-url <name> <newurl>`**
+   - Changes the URL of the specified remote repository.
+
+2. **`git push -u <remote> <branch>`**
+   - Pushes the specified branch to the remote repository and sets it as the upstream branch.
+
+3. **`git remote rm <name>`**
+   - Removes the specified remote repository.
+
+### Help Commands
+
+1. **`git help <command>`**
+   - Displays help information about the specified Git command.
+
+2. **`git --version`**
+   - Displays the currently installed Git version.
+
